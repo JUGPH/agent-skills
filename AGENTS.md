@@ -16,7 +16,7 @@ Every skill in this repository must reside in `.agents/skills/<skill-name>/SKILL
 
 ### 1. Naming & Directory Structure
 - The directory name under `.agents/skills/` must strictly match the `name` field in the YAML frontmatter in `kebab-case`.
-- Example: `.agents/skills/java-security-auditor/SKILL.md` with `name: java-security-auditor`.
+- Example: `.agents/skills/java-security-audit/SKILL.md` with `name: java-security-audit`.
 
 ### 2. Mandatory YAML Frontmatter
 Every `SKILL.md` must begin with standard YAML frontmatter:

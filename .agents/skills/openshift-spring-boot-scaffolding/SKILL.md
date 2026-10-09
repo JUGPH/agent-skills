@@ -1,5 +1,5 @@
 ---
-name: openshift-s2i-spring-boot-scaffolder
+name: openshift-spring-boot-scaffolding
 description: >-
   Trigger this skill whenever asked to generate, scaffold, initialize, or bootstrap a brand new Spring Boot microservice for Red Hat OpenShift Sandbox using the Source-to-Image (S2I) strategy. It interacts with the Spring Initializr API and enforces S2I-ready architectures using the org.jugph namespace.
 metadata:
@@ -193,10 +193,10 @@ oc get route org-jugph-route -o jsonpath='https://{.spec.host}{"\n"}'
 ## Helper Scripts & Architecture References
 
 * **Automation Scripts:**
-  * Bash Scaffolder: [`scripts/scaffold.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/scripts/scaffold.sh)
-  * PowerShell Scaffolder: [`scripts/scaffold.ps1`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/scripts/scaffold.ps1)
-  * OpenShift Sandbox Deployer: [`scripts/deploy-sandbox.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/scripts/deploy-sandbox.sh)
+  * Bash Scaffolder: [`scripts/scaffold.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolding/scripts/scaffold.sh)
+  * PowerShell Scaffolder: [`scripts/scaffold.ps1`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolding/scripts/scaffold.ps1)
+  * OpenShift Sandbox Deployer: [`scripts/deploy-sandbox.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolding/scripts/deploy-sandbox.sh)
 * **Architecture Reference:**
-  * S2I Lifecycle, Builder Images, and Quotas: [`references/s2i-architecture.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/references/s2i-architecture.md)
+  * S2I Lifecycle, Builder Images, and Quotas: [`references/s2i-architecture.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolding/references/s2i-architecture.md)
 
 

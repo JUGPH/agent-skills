@@ -50,7 +50,7 @@ Install only the skills you need for your workspace:
 npx skills add JUGPH/agent-skills --skill <skill-name>
 
 # Example: install multiple skills simultaneously
-npx skills add JUGPH/agent-skills --skill java-code-reviewer --skill java-security-auditor
+npx skills add JUGPH/agent-skills --skill java-code-review --skill java-security-audit
 ```
 
 #### Install Globally (User-Wide)

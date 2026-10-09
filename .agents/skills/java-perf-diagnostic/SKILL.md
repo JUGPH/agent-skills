@@ -1,5 +1,5 @@
 ---
-name: java-code-perf-diagnostic
+name: java-perf-diagnostic
 description: >-
   Trigger this skill when reviewing code for performance bottlenecks, high CPU utilization, excessive memory allocation, or latency issues within Java methods. It optimizes algorithmic complexity, data structure selection, String manipulation, exception handling, and thread contention for Java 21+ codebases.
 metadata:
@@ -78,6 +78,6 @@ public class FastResourceNotFoundException extends RuntimeException {
 ## Performance References & Diagnostic Scripts
 
 * **Architecture Reference:**
-  * Virtual Threads Pinning, Scoped Values, and Memory Allocation: [`references/jvm-virtual-threads-perf.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-code-perf-diagnostic/references/jvm-virtual-threads-perf.md)
+  * Virtual Threads Pinning, Scoped Values, and Memory Allocation: [`references/jvm-virtual-threads-perf.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-perf-diagnostic/references/jvm-virtual-threads-perf.md)
 * **Diagnostic Profiler Script:**
-  * Automated JFR Diagnostics (Virtual Thread Pinning & TLAB): [`scripts/jfr-profile.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-code-perf-diagnostic/scripts/jfr-profile.sh)
+  * Automated JFR Diagnostics (Virtual Thread Pinning & TLAB): [`scripts/jfr-profile.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-perf-diagnostic/scripts/jfr-profile.sh)

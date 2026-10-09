@@ -1,5 +1,5 @@
 ---
-name: java-test-engineer
+name: java-test-engineering
 description: >-
   Trigger this skill when asked to write, generate, or fix unit tests, slice tests, or integration tests for Java code. It enforces JUnit 5, Mockito, Testcontainers, Awaitility, AssertJ, and deep Spring Boot context management rules.
 metadata:
@@ -85,4 +85,4 @@ class WalletServiceTest {
 ## Test Engineering Architecture References
 
 * **Integration & Context Caching Deep Dive:**
-  * Testcontainers `@ServiceConnection`, Singleton Containers, and Spring Test Context Caching: [`references/testcontainers-guide.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-test-engineer/references/testcontainers-guide.md)
+  * Testcontainers `@ServiceConnection`, Singleton Containers, and Spring Test Context Caching: [`references/testcontainers-guide.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-test-engineering/references/testcontainers-guide.md)

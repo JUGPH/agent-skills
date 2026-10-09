@@ -1,5 +1,5 @@
 ---
-name: java-security-auditor
+name: java-security-audit
 description: >-
   Triggers automatically when writing, refactoring, or reviewing Spring Boot security configurations, filter chains, controller endpoints, or custom authentication logic. It audits the codebase against OAuth 2.1, OIDC, stateless JWT validation, method-level security, CORS/CSRF configurations, and Broken Object-Level Authorization (BOLA).
 metadata:
@@ -128,7 +128,7 @@ public class SecurityConfig {
 ## Architecture References & Audit Scripts
 
 * **Architecture Reference:**
-  * OAuth 2.1 Baseline, Claims Taxonomy, and Method Security SpEL: [`references/oauth2-oidc-guide.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-auditor/references/oauth2-oidc-guide.md)
+  * OAuth 2.1 Baseline, Claims Taxonomy, and Method Security SpEL: [`references/oauth2-oidc-guide.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-audit/references/oauth2-oidc-guide.md)
 * **Audit Scanner Scripts:**
-  * Bash Anti-Pattern Scanner: [`scripts/security-scan.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-auditor/scripts/security-scan.sh)
-  * PowerShell Anti-Pattern Scanner: [`scripts/security-scan.ps1`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-auditor/scripts/security-scan.ps1)
+  * Bash Anti-Pattern Scanner: [`scripts/security-scan.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-audit/scripts/security-scan.sh)
+  * PowerShell Anti-Pattern Scanner: [`scripts/security-scan.ps1`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-audit/scripts/security-scan.ps1)
