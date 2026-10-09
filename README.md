@@ -2,13 +2,13 @@
 
 [![Skills Ecosystem](https://img.shields.io/badge/skills.sh-compatible-blue.svg)](https://skills.sh)
 [![Java Version](https://img.shields.io/badge/Java-21%2B-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green.svg)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.x-green.svg)](https://spring.io/projects/spring-boot)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JUGPH/agent-skills/pulls)
 
 A curated collection of production-grade, enterprise AI agent skills maintained by **Java User Group Philippines (JUGPH)**.
 
-These skills extend AI coding assistants (such as **Claude Code**, **Cursor**, **Antigravity**, **GitHub Copilot**, **Codex**, **Windsurf**, and **Cline**) with architectural guardrails for modern Java (21+), Spring Boot 3.x, Spring Security 6.x / OAuth 2.1, OpenShift S2I container deployment, and JVM runtime performance tuning.
+These skills extend AI coding assistants (such as **Claude Code**, **Cursor**, **Antigravity**, **GitHub Copilot**, **Codex**, **Windsurf**, and **Cline**) with architectural guardrails for modern Java (21+), Spring Boot 4.x, Spring Security 7.x / OAuth 2.1, OpenShift S2I container deployment, and JVM runtime performance tuning.
 
 ---
 
@@ -186,7 +186,7 @@ We welcome contributions from the Java and Open Source community!
    metadata:
      version: "1.0.0"
      author: "Your Name"
-     framework: "Java 21+ / Spring Boot 3.x"
+     framework: "Java 21+ / Spring Boot 4.x"
    ---
    ```
 4. Verify skill discovery locally:

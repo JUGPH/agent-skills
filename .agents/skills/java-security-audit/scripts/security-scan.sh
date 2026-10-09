@@ -39,7 +39,7 @@ check_pattern "@Value secret injection (hardcoded secret strings)" '@Value\(".*\
 # 4. Check for controllers lacking @PreAuthorize on public mappings
 check_pattern "Public @DeleteMapping or @PostMapping without @PreAuthorize" '@(PostMapping|PutMapping|DeleteMapping).*'
 
-# 5. Check for WebSecurityConfigurerAdapter (removed in Spring Security 6)
+# 5. Check for WebSecurityConfigurerAdapter (removed in Spring Security 6+)
 check_pattern "Legacy WebSecurityConfigurerAdapter" 'WebSecurityConfigurerAdapter'
 
 echo "========================================================"

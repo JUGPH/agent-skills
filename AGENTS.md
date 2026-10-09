@@ -29,7 +29,7 @@ description: >-
 metadata:
   version: "1.0.0"
   author: "Author Name"
-  framework: "Target runtime/framework (e.g., Java 21+ / Spring Boot 3.x)"
+  framework: "Target runtime/framework (e.g., Java 21+ / Spring Boot 4.x)"
 ---
 ```
 
@@ -44,7 +44,7 @@ Each skill should be structured with the following standard sections:
 1. **Role & Directive**: Define the persona (e.g., Principal Java Architect, Application Security Engineer) and the core objective.
 2. **Workflow Steps**: Provide a 2–4 step sequential protocol for the agent to follow (e.g., Ingestion/Context, Analysis/Audit Matrix, Remediation/Generation).
 3. **Anti-Patterns Matrix**: A structured table or checklist contrasting bad practices against required modern patterns.
-4. **Code Blueprints / Templates**: Production-ready, copy-pasteable Java snippets demonstrating modern patterns (Java 21+, Records, Text Blocks, Virtual Threads, Spring Boot 3.x conventions).
+4. **Code Blueprints / Templates**: Production-ready, copy-pasteable Java snippets demonstrating modern patterns (Java 21+, Records, Text Blocks, Virtual Threads, Spring Boot 4.x conventions).
 
 ---
 
@@ -52,7 +52,7 @@ Each skill should be structured with the following standard sections:
 
 When authoring Java guidance within skills:
 - **Java Baseline**: Assume Java 21 LTS or newer. Use Records, Sealed Interfaces, Text Blocks (`"""`), Pattern Matching, and Sequenced Collections.
-- **Spring Boot Baseline**: Spring Boot 3.x and Spring Security 6.x.
+- **Spring Boot Baseline**: Spring Boot 4.x and Spring Security 7.x.
 - **Dependency Injection**: Constructor injection via Lombok `@RequiredArgsConstructor` or explicit record constructors. Never field injection (`@Autowired`).
 - **Entity Safety**: Never use Lombok `@Data`, `@EqualsAndHashCode`, or `@ToString` on JPA `@Entity` classes.
 - **Data Flow**: Enforce immutable Java `record` DTOs for API ingress and egress; never expose JPA entities directly.

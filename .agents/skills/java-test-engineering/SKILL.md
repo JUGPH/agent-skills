@@ -5,7 +5,7 @@ description: >-
 metadata:
   version: "1.0.0"
   author: "Tristan Mahinay"
-  framework: "Java 21+ / Spring Boot 3.x / JUnit 5"
+  framework: "Java 21+ / Spring Boot 4.x / JUnit 5"
 ---
 
 # Java Test Engineering Skill

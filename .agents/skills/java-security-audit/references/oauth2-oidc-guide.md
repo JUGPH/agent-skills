@@ -1,6 +1,6 @@
 # Enterprise Spring Security, OAuth 2.1 & OIDC Implementation Guide
 
-This reference provides architectural standards, claim specifications, and security policies for Spring Boot 3.x and Spring Security 6.x services.
+This reference provides architectural standards, claim specifications, and security policies for Spring Boot 4.x and Spring Security 7.x services.
 
 ---
 

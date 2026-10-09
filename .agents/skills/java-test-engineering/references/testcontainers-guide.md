@@ -1,12 +1,12 @@
 # Enterprise Spring Boot Testcontainers & Context Optimization Guide
 
-This reference provides architectural blueprints for fast, non-flaky integration testing using Testcontainers and Spring Boot 3.1+ features.
+This reference provides architectural blueprints for fast, non-flaky integration testing using Testcontainers and Spring Boot 4.x features.
 
 ---
 
-## 1. Modern `@ServiceConnection` (Spring Boot 3.1+)
+## 1. Modern `@ServiceConnection` (Spring Boot 4.x)
 
-Legacy Spring Boot required manual `@DynamicPropertySource` methods to bind dynamic container ports into Spring environment properties. Spring Boot 3.1+ introduces `@ServiceConnection`, which automatically discovers and auto-configures the connection details:
+Legacy Spring Boot required manual `@DynamicPropertySource` methods to bind dynamic container ports into Spring environment properties. Modern Spring Boot provides `@ServiceConnection`, which automatically discovers and auto-configures the connection details:
 
 ### ❌ Legacy Pattern (Verbose & Repetitive):
 ```java
@@ -21,7 +21,7 @@ static void configureProperties(DynamicPropertyRegistry registry) {
 }
 ```
 
-### ✅ Modern Spring Boot 3.1+ Pattern:
+### ✅ Modern Spring Boot Pattern:
 ```java
 @Container
 @ServiceConnection

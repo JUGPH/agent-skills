@@ -5,7 +5,7 @@ description: >-
 metadata:
   version: "1.0.0"
   author: "Tristan Mahinay"
-  framework: "Spring Boot 3.x / Spring Security 6.x"
+  framework: "Spring Boot 4.x / Spring Security 7.x"
 ---
 
 # Enterprise Spring Boot Security & OIDC Compliance Auditor
@@ -33,7 +33,7 @@ Refactor or generate classes adhering strictly to the compliant code architectur
 
 ## Deep Threat Modeling Matrix
 
-| Threat Vector | Prohibited Implementation | Mandatory Secure Pattern (Spring Boot 3.x+) |
+| Threat Vector | Prohibited Implementation | Mandatory Secure Pattern (Spring Boot 4.x+) |
 | :--- | :--- | :--- |
 | **Token Validation & Verification** | Decoding or trust-parsing a JWT locally using generic base64 decoders or omitting signature/issuer verification. | Force asymmetric verification via a remote JWKS URI (`spring.security.oauth2.resourceserver.jwt.jwk-set-uri`). Enforce explicit claims validation for `iss` (issuer) and `aud` (audience). |
 | **Method Authorization** | Using loose string concatenations or relying entirely on global endpoint pattern matching via `requestMatchers()`. | Activate `@EnableMethodSecurity(prePostEnabled = true)`. Enforce type-safe, strict authorization using expression-based annotations (e.g., `@PreAuthorize("hasAuthority('SCOPE_read')")`). |
