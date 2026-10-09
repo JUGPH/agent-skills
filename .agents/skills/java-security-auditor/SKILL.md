@@ -121,3 +121,14 @@ public class SecurityConfig {
         return source;
     }
 }
+```
+
+---
+
+## Architecture References & Audit Scripts
+
+* **Architecture Reference:**
+  * OAuth 2.1 Baseline, Claims Taxonomy, and Method Security SpEL: [`references/oauth2-oidc-guide.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-auditor/references/oauth2-oidc-guide.md)
+* **Audit Scanner Scripts:**
+  * Bash Anti-Pattern Scanner: [`scripts/security-scan.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-auditor/scripts/security-scan.sh)
+  * PowerShell Anti-Pattern Scanner: [`scripts/security-scan.ps1`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-security-auditor/scripts/security-scan.ps1)

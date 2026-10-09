@@ -75,3 +75,11 @@ public record StripeProperties(
 public class StripePaymentService {
     private final StripeProperties properties; // Injected cleanly
 }
+```
+
+---
+
+## Architectural References
+
+* **Framework & Language Deep Dive:**
+  * Spring AOP Proxy Mechanics, Self-Invocation, and Deep Immutability: [`references/spring-proxy-mechanics.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-code-reviewer/references/spring-proxy-mechanics.md)

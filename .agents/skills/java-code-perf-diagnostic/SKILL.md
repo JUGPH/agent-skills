@@ -71,3 +71,13 @@ public class FastResourceNotFoundException extends RuntimeException {
         return this;
     }
 }
+```
+
+---
+
+## Performance References & Diagnostic Scripts
+
+* **Architecture Reference:**
+  * Virtual Threads Pinning, Scoped Values, and Memory Allocation: [`references/jvm-virtual-threads-perf.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-code-perf-diagnostic/references/jvm-virtual-threads-perf.md)
+* **Diagnostic Profiler Script:**
+  * Automated JFR Diagnostics (Virtual Thread Pinning & TLAB): [`scripts/jfr-profile.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-code-perf-diagnostic/scripts/jfr-profile.sh)

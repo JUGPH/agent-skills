@@ -188,3 +188,15 @@ oc get pods -w
 oc get route org-jugph-route -o jsonpath='https://{.spec.host}{"\n"}'
 ```
 
+---
+
+## Helper Scripts & Architecture References
+
+* **Automation Scripts:**
+  * Bash Scaffolder: [`scripts/scaffold.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/scripts/scaffold.sh)
+  * PowerShell Scaffolder: [`scripts/scaffold.ps1`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/scripts/scaffold.ps1)
+  * OpenShift Sandbox Deployer: [`scripts/deploy-sandbox.sh`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/scripts/deploy-sandbox.sh)
+* **Architecture Reference:**
+  * S2I Lifecycle, Builder Images, and Quotas: [`references/s2i-architecture.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/openshift-spring-boot-scaffolder/references/s2i-architecture.md)
+
+

@@ -78,3 +78,11 @@ class WalletServiceTest {
         assertThat(result.amount()).isEqualTo(500.00);
     }
 }
+```
+
+---
+
+## Test Engineering Architecture References
+
+* **Integration & Context Caching Deep Dive:**
+  * Testcontainers `@ServiceConnection`, Singleton Containers, and Spring Test Context Caching: [`references/testcontainers-guide.md`](file:///c:/Users/rjtma/Documents/agent-skills/.agents/skills/java-test-engineer/references/testcontainers-guide.md)
